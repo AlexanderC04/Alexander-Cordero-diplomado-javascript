@@ -1,4 +1,6 @@
 //6. Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
+const ps = require("prompt-sync");
+const prompt = ps();
 let primerNum = parseInt(prompt("Primer Numero?"));
 let segundoNum = parseInt(prompt("Segundo Numero?"));
 let tercerNum = parseInt(prompt("Tercer Numero?"));
