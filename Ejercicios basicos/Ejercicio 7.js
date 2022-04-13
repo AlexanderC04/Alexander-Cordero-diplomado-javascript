@@ -2,7 +2,7 @@
 const ps = require("prompt-sync");
 const prompt = ps();
 
-let num = parseInt(prompt("Primer Numero? "));
+let num = parseInt(prompt("Numero? "));
 if (num % 2 == 0) {
   console.log(num + " es divisible por 2");
 } else {
