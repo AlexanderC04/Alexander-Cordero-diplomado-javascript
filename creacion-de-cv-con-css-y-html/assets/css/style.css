@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:wght@300;400;500;700&family=Space+Mono:wght@400;700&display=swap");
+
+/* 
+font-family: 'Amatic SC', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Space Mono', monospace; 
+*/
+body {
+}
+:root {
+  --border: #333333;
+  --background-profile: #004641;
+  --background-resume: #34746c;
+  --title: #ecffff;
+  --subtitle: #cafff9;
+  --fonts: #e3fffb;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--fonts);
+  font-size: 1rem;
+  color: var(--fonts);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem auto 0.8rem auto;
+  width: min(100%, 1000px);
+  border: 1px solid var(--border);
+  box-shadow: var(--border) 0px 4px 8px 5px;
+}
+@media screen and (max-width: 1015px) {
+  .container {
+    width: 97%;
+  }
+}
+.section {
+}
+.section__profile {
+  padding: 2rem;
+  width: 40%;
+  background-color: var(--background-profile);
+}
+.profile__info {
+  margin-bottom: 1.8rem;
+}
+.profile-picture-holder {
+  width: 65%;
+  margin: 1rem auto 3.3rem auto;
+}
+.profile-picture {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid var(--fonts);
+}
+.contact__list {
+}
+.contact__list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+.contact__icon-holder {
+}
+.contact__icon {
+  width: 30px;
+  height: auto;
+  filter: invert(99%) sepia(63%) saturate(857%) hue-rotate(166deg)
+    brightness(102%) contrast(101%);
+}
+/*  */
+.section__resume {
+  width: 70%;
+}
+
+.section__resume {
+  background-color: var(--background-resume);
+  padding: 2rem;
+}
+.resume__title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.resume__name {
+  font-size: 3.7rem;
+  font-family: "Space Mono", monospace;
+  width: 10ch;
+  margin: 4rem auto 0 auto;
+  line-height: 1;
+}
+.resume__tag {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.resume__article {
+}
+.title {
+  font-family: "Amatic SC", cursive;
+  color: var(--title);
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  position: relative;
+}
+
+.title::before {
+  content: "";
+  padding: 0.3rem 2rem;
+  background-color: var(--title);
+  position: absolute;
+  top: 3.6rem;
+}
+.subtitle {
+  font-family: "Space Mono";
+  font-size: 1.1rem;
+  color: var(--subtitle);
+}
+.date-info {
+  margin-bottom: 1.4rem;
+  font-family: "Space Mono";
+  font-size: 0.8rem;
+}
+.resume__list {
+  margin-bottom: 2rem;
+}
+.resume__list-item {
+  margin: 0 0 0.4rem 1.2rem;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "creacion-de-cv-con-css-y-html",
+  "version": "1.0.0",
+  "description": "Para profundizar un poco mas con HTML y la integracion con CSS, vamos a crear la siguiente hoja de vida con nuestros datos, seguir el siguiente ejemplo:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderC04/creacion-de-cv-con-css-y-html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderC04/creacion-de-cv-con-css-y-html/issues"
+  },
+  "homepage": "https://github.com/AlexanderC04/creacion-de-cv-con-css-y-html#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
